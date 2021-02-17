@@ -5,7 +5,7 @@
       <field name="model">custom_crm.custom_crm</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="name"/>
+          <field name="name name"/>
           <field name="value"/>
           <field name="value2"/>
         </tree>
