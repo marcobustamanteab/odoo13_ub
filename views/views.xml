@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="custom_crm.list">
+      <field name="name">custom_crm list</field>
+      <field name="model">custom_crm.custom_crm</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+
+  </data>
+</odoo>
